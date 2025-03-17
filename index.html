@@ -5,24 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BalleCoffee</title>
     <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="icon" href="assets/favicon.ico" type="image/x-icon"> -->
 </head>
 <body>
     <header>
         <nav>
-            <span>ballecoffee</span>
-            <ul>
+            <span class="logo">ballecoffee</span>
+            <ul class="menu">
                 <li><a href="Home">Home</a></li>
                 <li><a href="Receitas">Receitas</a></li>
                 <li><a href="Novidades">Novidades</a></li>
                 <li><a href="Melhor avaliadas">Melhor avaliadas</a></li>
             </ul>
-            <a>Github</a>
+            <a class="github">Github</a>
         </nav>
     </header>
+
     <main>
-        <section></section>
-        <section></section>
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque marrom">novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="assets/hero-banner-1.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-2.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-3.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-4.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-5.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-6.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-7.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-8.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-9.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-10.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-11.png" alt=""></figure>
+                    <figure><img src="assets/hero-banner-12.png" alt=""></figure>
+                </div>
+            </section>
+        </div>
+
+        <section class="botao-container">
+            <button type="button">
+                <img src="assets/chevrons-down.svg" alt="">
+            </button>
+        </section>
+
+        <section class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque marrom">receitas</span>
+                <h2 class="receitas-tituto">Confira as últimas receitas</h2>
+                <p class="receitas-subtituto">Dê uma olhada nas receitas mais amadas!</p>
+            </header>
+
+            <div class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-cabecalho-detalhes">
+                            <span class="destaque amarelo">em alta 🔥</span>
+                            <h3 class="receita-tituto">Cappuccino ☕</h3>
+                            <p class="receita-avaliacao">Extraordinário · 4/4 </p>
+                        </div>                        
+                    </header>
+                    <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                    <div class="receita-autor">
+                        <img src="https://avatars.githubusercontent.com/u/54322854?v=4" alt="">
+                        <span class="receita-autor-nome">Rafaella Ballerini</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+
+    <footer>
+        <p class="footer-copy">Copyright &lt; CODEFEE /&gt; 2023</p>
+        <p class="footer-autor">Feito com muito ❤ e café por Rafaella Ballerini</p>
+    </footer>
 </body>
 </html>
